@@ -20,7 +20,7 @@ body {
   margin: 0; }
 
 h1 {
-  font-size: 2em;
+  font-size: 1em;
   margin: 0.67em 0; }
 
 hr {
@@ -2200,28 +2200,10 @@ small {
   font-size: 80%;
   line-height: inherit; }
 
-h1, .h1,
-h2, .h2,
-h3, .h3,
-h4, .h4,
-h5, .h5,
-h6, .h6 {
-  font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
-  font-style: normal;
-  font-weight: normal;
-  color: inherit;
-  text-rendering: optimizeLegibility; }
-  h1 small, .h1 small,
-  h2 small, .h2 small,
-  h3 small, .h3 small,
-  h4 small, .h4 small,
-  h5 small, .h5 small,
-  h6 small, .h6 small {
-    line-height: 0;
-    color: #cacaca; }
+
 
 h1, .h1 {
-  font-size: 1.5rem;
+  font-size: 0.5em;
   line-height: 1.4;
   margin-top: 0;
   margin-bottom: 0.5rem; }
@@ -2258,7 +2240,7 @@ h6, .h6 {
 
 @media print, screen and (min-width: 40em) {
   h1, .h1 {
-    font-size: 3rem; }
+    font-size: 1.5rem; }
   h2, .h2 {
     font-size: 2.5rem; }
   h3, .h3 {
