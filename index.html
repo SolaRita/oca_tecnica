@@ -8,30 +8,35 @@
     <title>Nascor formación</title>
     <link rel="stylesheet" href="css/foundation.css">
     <link rel="stylesheet" href="css/app.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800&display=swap" rel="stylesheet">
   </head>
 <body>
 
   <header>
     <div class="grid-container">
-      <div class="grid-x grid-padding-x">
+      <div class="grid-x ">
         <div class="large-12 cell">
         </div>
       </div>
  
-      <div class="grid-x grid-padding-x">
+      <div class="grid-x ">
         <div class="large-12 cell">
-          <div class="callout">
+          <div id="top_square"class="callout">
             <div class="grid-x grid-padding-x left">
+              <div class="large-12 medium-12 cell">
+                <img id="logo_nascor" src="assets/header/logo_nascor.png" alt="logo_nascor formacion">
+              </div>
               <div class="large-6 medium-6 cell">
-                <img src="assets/header/logo_nascor.png" alt="logo_nascor formacion">
                 <h1>Implantación y animación de espacios comerciales</h1>
                 <p>
                   Al tratarse de un certificado de nivel 3, el alumno debe tener la titulación de Bachillerato o similar, homologado en España, para acceder. Si no cuentas con ella, ¡no te preocupes! Te ofrecemos la posibilidad de realizar las pruebas de competencia equivalentes con nosotros. ¡Reserva tu cita con nuestro equipo! 
                 </p>
               </div>
 
-            <div class="large-6 medium-6 cell">
-            <h5>RESERVA CITA PARA TU PRUEBA:</h5>
+            <div id= "form" class="large-6 medium-6 cell ">
+            <h5 id="form_title">RESERVA CITA PARA TU PRUEBA:</h5>
             <form>
             <div class="grid-x grid-padding-x">
               <div class="large-12 cell">
@@ -40,17 +45,17 @@
               </div>
               <div class="large-12 cell">
                 <label></label>
-                <input type="text" placeholder="Mail" />
+                <input type="email" placeholder="Mail" />
               </div>
               <div class="large-12 cell">
                   <label></label>
-                  <select placeholder="Mail">                 
-                    <option value="husker">24 de febrero</option>
-                    <option value="husker">25 de febrero</option>
-                    <option value="husker">26 de febrero</option>
+                  <select placeholder="Fecha">                 
+                    <option>24 de febrero</option>
+                    <option>25 de febrero</option>
+                    <option>26 de febrero</option>
                   </select>
                 </div>
-                <div class="large-12 cell">
+                <div class="large-12 cell align-right">
                 <p><a href="#" class="button">Enviar</a><br/>
                 </div>
               </div>         
@@ -60,44 +65,45 @@
     </div> 
   </header>
         
+<main>
+<div class="container"> 
+  <h2>¿DE QUÉ TRATAN <span style="color: var(--secundary-color-orange);"> LAS PRUEBAS DE COMPETENCIA?</span></h2>
 
-<div>
-  <h2>¿DE QUÉ TRATAN <span> LAS PRUEBAS DE COMPETENCIA?</span></h2>
-</div>
 
 <div class="grid-container">
-  <div class="grid-x grid-padding-x align-center-middle text-center">
+  <div class="grid-x grid-padding-x align-center-middle align-bottom text-center">
     <div class="cell small-3 small-order-2 medium-order-1 align-right">
-      <img  id="#" src="assets/main/matematicas.png">
-      <p>Matemáticas</p>
+      <img class="competencias_img" id="#" src="assets/main/matematicas.png">
+      <p class="competencias">Matemáticas</p>
     </div>
     <div class="cell small-3 small-order-1 medium-order-2 align-left">
-      <img  id="#" src="assets/main/lengua_castellana.png">
-      <p>Lengua Castellana</p>
+      <img  class="competencias_img" id="#" src="assets/main/lengua_castellana.png">
+      <p class="competencias">Lengua Castellana</p>
     </div>
   </div>
 </div>
+</div>
 
 
 
-
+<div class="container">
 <div class="grid-container">
   <div class="grid-x grid-padding-x">
-    <div class="cell small-1 align-top">
+    <div id="second_title" class="cell small-1 align-top">
       <img src="assets/main/line_title.png" alt="">
     </div>
-    <h2>INDICACIONES PARA REALIZAR LAS PRUEBAS</h2>
+    <h3>INDICACIONES PARA REALIZAR LAS PRUEBAS</h3>
   </div>
 <div>
 
 <div>
   <h4>Prueba de Matemáticas</h4>
     <ul>
-      <li>La prueba consta de dos ejercicios relacionados con problemas de cálculo y desarrollo.</li>
-      <li>Se valorará sobre 10 puntos y para superarla con calificación APTO, se tiene que obtener una puntuación mínima de 7 puntos.</li>
+      <li> <p>La prueba consta de dos ejercicios relacionados con problemas de cálculo y desarrollo. </p></li>
+      <li> <p>Se valorará sobre 10 puntos y para superarla con calificación APTO, se tiene que obtener una puntuación mínima de 7 puntos. </p></li>
       <ul>
-        <li>Los problemas de cálculo tipo test cuenten 0,6 puntos la respuesta correcta, haciendo un total de 6 puntos.</li>
-        <li>Los problemas de desardllo cuentan 2 puntos cada uno, haciendo un total de 4 puntos. </br>Se ha de detallar el proceso de resolución del problema.</li>
+        <li> <p>Los problemas de cálculo tipo test cuenten 0,6 puntos la respuesta correcta, haciendo un total de 6 puntos. </p></li>
+        <li> <p>Los problemas de desardllo cuentan 2 puntos cada uno, haciendo un total de 4 puntos. </br>Se ha de detallar el proceso de resolución del problema. </p></li>
       </ul>
     </ul>
 </div>
@@ -106,48 +112,51 @@
 <div>
   <h4>Prueba de Lengua Castellana</h4>
     <ul>
-      <li>La prueba consta de tres ejercicios relacionados con la compresión lectora, léxico redacción. </li>
-      <li>La prueba se valorará sobre 10 puntos y para superarla con calificación APTO, </br>se tiene que obtener una puntuación mínima de 6 puntos.</li>
+      <li> <p>La prueba consta de tres ejercicios relacionados con la compresión lectora, léxico redacción. </p> </p></li>
+      <li> <p>La prueba se valorará sobre 10 puntos y para superarla con calificación APTO, </br>se tiene que obtener una puntuación mínima de 6 puntos. </p></li>
       <ul>
-        <li>Comprensión lectora: cada respuesta correcta vale 0,5 puntos, haciendo un total de 2,5 puntos.</li>
-        <li>Léxico: cada respuesta correcta vale 0,5 puntos, haciendo un total de 2,5 puntos.</li>
-        <li>Redacción: la puntuación máxima es de 5 puntos. Se debe obtener como mínimo una puntuación</br> de 2,5 puntos para lograr la calificación APTO de la prueba.</li>
+        <li> <p>Comprensión lectora: cada respuesta correcta vale 0,5 puntos, haciendo un total de 2,5 puntos. </p></li>
+        <li> <p>Léxico: cada respuesta correcta vale 0,5 puntos, haciendo un total de 2,5 puntos. </p></li>
+        <li> <p>Redacción: la puntuación máxima es de 5 puntos. Se debe obtener como mínimo una puntuación</br> de 2,5 puntos para lograr la calificación APTO de la prueba. </p></li>
       </ul>
     </ul>
 </div>
-  
+</div>  
 
-
-<div class="grid-container">
-  <div class="grid-x grid-padding-x">
-    <div class="cell small-1 align-top">
+<div class="container">
+  <div class="grid-container">
+    <div class="grid-x grid-padding-x">
+      <div id="second_title" class="cell small-1 align-top">
       <img src="assets/main/line_title.png" alt="">
-      <h2>CONSEJOS</h2>
-    </div>
-  <div>
+      <h3>CONSEJOS</h3>
+      </div>
+    <div>
+  </div>
 </div>
 
 <div>
   <h4>Antes de empezar, te damos algunos consejos:</h4>
     <ul>
-      <li>No hay límite de tiempo, por lo tanto, ¡tranquil@! Puedes hacerlo a tu ritmo para que el resultado sea exitoso. </li>
-      <li>Lee atentamente las preguntas.</li>
-      <li>Puedes utilizar calculadora.</li>
-      <li>Utiliza un folio en blanco para hacer pruebas, tachones, etc.</li>
-      <li>Cualquier duda, ¡pregúntanos! Estamos aquí para ayudarte.</li>
+      <li><p>No hay límite de tiempo, por lo tanto, ¡tranquil@! Puedes hacerlo a tu ritmo para que el resultado sea exitoso. </p></li>
+      <li><p>Lee atentamente las preguntas.</p></li>
+      <li><p>Puedes utilizar calculadora.</p></li>
+      <li><p>Utiliza un folio en blanco para hacer pruebas, tachones, etc.</p></li>
+      <li><p>Cualquier duda, ¡pregúntanos! Estamos aquí para ayudarte.</p></li>
     </ul>
 </div>
- 
+</div> 
+</main>
 
+<div class="container">
 <div>
-  <h2>¿CÓMO <span> LLEGAR?</span></h2>
+  <h2>¿CÓMO <span style="color: var(--secundary-color-orange);"> LLEGAR?</span></h2>
   <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3036.984945013665!2d-3.80812248550681!3d40.43133226267687!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd41872bf586803d%3A0x104e40cbef4fb5b3!2sNascor%20Pozuelo!5e0!3m2!1ses!2ses!4v1648750609645!5m2!1ses!2ses" width="1000" height="130" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 </div>
 
 <div class="grid-container">
   <div class="grid-x grid-padding-x align-center-middle text-center">
-    <div class="cell small-3 small-order-2 medium-order-1 align-right">
-      <img src="assets/main/icon_map.png" alt="icon_location">
+    <div class="cell small-3 small-order-2 medium-order-1 align-top">
+      <img  class="competencias_img"  src="assets/main/icon_map.png" alt="icon_location">
       <p>Edificio OCA, Vía de las Dos Castillas, 7, 28224 Pozuelo de Alarcón, Madrid</p>
     </div>
     <div class="cell small-3 small-order-1 medium-order-2 align-left">
@@ -156,17 +165,29 @@
     </div>
   </div>
 </div>
-
-<div>
-  <p>Formación 100% subvencionada por:</p>
-  <img src="assets/main/logo_subvencion.png" alt="icon_metro">
 </div>
+
+
+<div class="container">
+  <div class="grid-container">
+    <div class="grid-x grid-padding-x align-center-middle text-center">
+      <div class="large-12 medium-12 cell">
+        <p>Formación 100% subvencionada por:</p>
+      </div>
+      <div class="large-12 medium-12 cell">
+        <img src="assets/main/logo_subvencion.png" alt="icon_metro">
+      </div>
+    </div>
+  </div>
+</div>  
 
 <footer>
 <a href="#">Política de Privacidad</a>
-<img src="assets/footer/icon_facebook.png" alt="facebook">
-<img src="assets/footer/icon_linkedin.png" alt="linkedin">
-<img src="assets/footer/icon_twitter.png" alt="twitter">
+<div id="sm_icons_box">
+<img  id="sm_icons" src="assets/footer/icon_facebook.png" alt="facebook">
+<img id="sm_icons" src="assets/footer/icon_linkedin.png" alt="linkedin">
+<img id="sm_icons"  src="assets/footer/icon_twitter.png" alt="twitter">
+</div>
 </footer>
 
      

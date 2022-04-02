@@ -75,7 +75,7 @@ input,
 optgroup,
 select,
 textarea {
-  font-family: inherit;
+
   font-size: 100%;
   line-height: 1.15;
   margin: 0; }
@@ -2754,6 +2754,7 @@ label {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
+  
   display: flex;
   width: 100%;
   margin-bottom: 1rem;
@@ -2793,12 +2794,14 @@ label {
       -ms-flex-align: center;
           align-items: center; }
   .input-group-label:first-child {
+    
     border-right: 0; }
   .input-group-label:last-child {
     border-left: 0; }
 
 .input-group-field {
   border-radius: 0;
+  
   -webkit-box-flex: 1;
   -webkit-flex: 1 1 0px;
       -ms-flex: 1 1 0px;
